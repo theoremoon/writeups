@@ -4,7 +4,7 @@ bit_pick = [28, 24, 20, 16, 12, 8, 4, 0, 60, 56, 52, 48, 44, 40, 36, 32, 92, 88,
 xorbuf = [247, 162, 130, 73, 139, 252, 234, 40, 142, 146, 75, 134, 81, 115, 215, 169, 165, 169, 56, 234, 105, 163, 139, 231, 172, 23, 9, 106, 139, 191, 253, 21]
 
 
-encrypted = open("flag_mixed", "rb").read()
+encrypted = open("output.txt", "rb").read()
 xoredx = []
 xored = ''
 for i in range(len(encrypted)):
